@@ -1,0 +1,167 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.parent{
+    background-image: url("Netflix-bg.jfif");
+    height: 130vh;
+    width: 100%;
+    background-position:top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.652);
+     height: 130vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; }
+
+.logo img{
+    width: 290px;
+    margin-left: 89px;
+    margin-top: -38px;
+    position: relative;
+  
+}
+.form-container{
+    background-color: rgba(0, 0, 0, 0.81);
+    margin: auto;
+    padding: 60px;
+    padding-top: 30px;
+    padding-left:  60px;
+    width: 470px;
+    border-radius: 4px;
+    margin-top: -39px;
+    margin-right: 10px 0;
+    position: relative;
+
+    
+   
+}
+
+.form-container h1{
+    color: #fff;
+    font-weight: 600;
+}
+
+form{
+    margin-top: 30px;
+}
+
+
+
+form .name_password input{
+    width: 100%;
+    background-color: rgba(100, 100, 100, 0.16);
+    border: none;
+    padding: 14px;
+    border: 1px solid #dadada5d;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    color: white;
+    font-weight: 800;
+    cursor: text;
+    
+}
+.button input{
+   
+    cursor: pointer;
+    width: 100%;
+    background-color: #d50e18;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+.button  input:hover{
+    background-color: rgb(140, 1, 1);
+    transition-duration: 200ms;
+    transform: translatey(3px);
+}
+.button  button:hover{
+    background-color: rgba(46, 46, 46, 0.493);
+    transition-duration: 200ms;
+    transform: translatey(3px);
+    box-shadow: none;
+    cursor: pointer;
+}
+.button div{
+    text-align: center;
+    color: #fbf7f7c0;
+    margin: 15px 0;
+    
+
+}
+
+.button button{
+    width: 100%;
+    color: #fff;
+    background-color: #ffffff38;
+    padding: 12px 0;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 600;
+
+}
+.fp_link{
+   text-align: center;
+   margin: 15px 0;
+}
+
+.fp_link  :hover{
+    color: rgb(170, 170, 170);
+    transition-duration: 200ms;
+
+}
+.fp_link a{
+    color: #fff;
+}
+.checkbox{
+    margin: -40;
+}
+.checkbox label{
+   
+    color: #fff;
+    margin-right: 5px;
+}
+.new_account{
+    margin-top: 15px;
+
+}
+.new_account span{
+    color: #ffffff83;
+
+}
+.new_account a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.para{
+    margin-top: 15px;
+
+}
+.para p{
+    color: #ffffff80;
+    margin-top: 10px;
+}
+.para a{
+    color: #448EF4;
+}
